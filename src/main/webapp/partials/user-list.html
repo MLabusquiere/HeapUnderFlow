@@ -1,0 +1,10 @@
+
+<div>
+	<!--Body content-->
+	<ul>
+		<li ng-repeat="user in users">
+			Pseudo : <a href="#/users/{{user._id}}">{{user.userPseudo}}</a> <a ng-click ="deleteUser(user._id)">delete</a>
+		</li>
+	</ul>
+
+</div>
